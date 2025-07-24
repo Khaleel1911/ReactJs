@@ -1,0 +1,59 @@
+body{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: 'poppins',sans-serif;
+}
+.container{
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+  font-size: 1.5rem;
+}
+
+ul{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  list-style: none;
+  /* border: 2px solid red; */
+  border-radius: 30px;
+  box-shadow: 10px 10px 10px rgba(0,0,0,0.1);
+
+}
+
+ul li{
+  padding: 10;
+  margin: 15px 15px;
+  font-weight: bold;
+  cursor: pointer;
+
+}
+
+button{
+  padding: 15px;
+  color: white;
+  border-radius: 40px;
+  background-color: black;
+  font-weight: bold;
+  width: 160px;
+  height: 70px;
+  font-size: 1.2rem;
+  cursor: pointer;
+}
+
+a{
+  text-decoration: none;
+  color: black;
+}
+
+.main-container{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+}
+
+a.active{
+  color: red;
+}
